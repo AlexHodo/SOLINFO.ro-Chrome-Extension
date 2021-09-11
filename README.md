@@ -1,1 +1,2 @@
-Extensie Chrome pentru SOLINFO.ro
+# SOLINFO.ro-Chrome-Extension
+ 
