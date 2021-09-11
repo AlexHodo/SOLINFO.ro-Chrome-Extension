@@ -1,11 +1,11 @@
 {
-  "name": "solinfo-ext",
-  "description" : "O extensie pentru a adauga solutii pe solinfo.ro mai usor.",
-  "version": "2.0",
+  "name": "Hello Extensions",
+  "description" : "Base Level Extension",
+  "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "Adauga solutia pe solinfo.ro"
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
   },
   "icons": {
     "16": "logo192.png",
@@ -27,9 +27,6 @@
     }
   ],
   "permissions": [
-    "activeTab",
-    "<all_urls>",
-    "tabs",
-    "storage"
+    "activeTab"
   ]
 }
