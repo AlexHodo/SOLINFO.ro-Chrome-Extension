@@ -1,18 +1,21 @@
-## 1. How it was created:
+# SOLINFO.ro-Chrome-Extension
+ 
+## Mod de folosire
+- Descarcă arhiva _extension.zip_
+- Dezarhivează într-un folder pe PC-ul tău
+- Intră pe chrome://extensions (Sau _setări_ > _extensii_)
+- Bifează _Developer mode_
+- Click pe _Load unpacked_
+- Selectează folderul creat în urma dezarhivării
 
-[Medium. How To Create A Google Chrome Extension With React](https://medium.com/javascript-in-plain-english/how-to-create-google-chrome-extension-using-react-js-5c9e343323ff)
-
-## 2. How to build this extension:
-
+### Compilare pe propriul calculator
+Extensia a fost creată folosind ReactJS. Pentru a o compila direct pe PC-ul tău, urmează pașii de mai jos:
+- Instalează _git_ și _npm_ pe PC-ul tău
+- Crează un nou folder și deschide-l în terminal / cmd
 ```
-$ yarn run build
+git clone https://github.com/AlexHodo/SOLINFO.ro-Chrome-Extension
+cd SOLINFO.ro-Chrome-Extension
+npm install
+npm run build
 ```
-
-## 3. How to add it to your Chrome browser:
-
-![](./assets/readme/2020-12-04_15-18-20.jpg)
-
-Select `/build` folder
-
-
-
+- Un nou folder build va fi creat. Urmează pașii din prima secțiune pentru a instala extensia și selectează _SOLINFO.ro-Chrome-Extension/build_ în locul folderului creat prin dezarhivare.
