@@ -6,7 +6,7 @@ import { getCurrentTabUrl, getCurrentTabUId } from "../chrome/utils";
 const useStyles = makeStyles({
   iframe: {
     width: '400px',
-    height: '550px',
+    height: '600px',
     border: 'none'
   }
 })
