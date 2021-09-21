@@ -1,6 +1,9 @@
 # SOLINFO.ro-Chrome-Extension
+
+## Instalare din Chrome Web Store
+Extensia este acum disponibilă pe Chrome Web Store [aici](https://chrome.google.com/webstore/detail/solinforo/abmhdbimjkobbjbdbafjnamidmjkopkh).
  
-## Mod de folosire
+## Instalare manuală
 - Descarcă arhiva _extension.zip_
 - Dezarhivează într-un folder pe PC-ul tău
 - Intră pe chrome://extensions (Sau _setări_ > _extensii_)
